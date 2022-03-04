@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="iXeP]={,]9jt0$0{TJNj" x="-381" y="51"><statement name="HANDLER"><block type="device_show_leds" id="T-H0#MXT/s2PL`,3[SUS"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="M(1`W_X8VopK{Wr8T$Yb"><value name="pause"><shadow type="timePicker" id="*(^kds$(yTvJd@`!%TV3"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="J0Nr-p`NTc65Sn+`Iz4F"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="h7nR(TytU?2;DU.;oAOv"><value name="pause"><shadow type="timePicker" id="v~|^Ced.ukq914_CloY2"><field name="ms">500</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="|{vgp-R8F}_#F9ZuN;#~" x="125" y="34"/><block type="device_pin_event" id="cb%|jAuh64Oz94zuKaG3" x="-116" y="191"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="device_show_number" id=":/Ga;=wPjWL]KUDScUV{"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="o8a$D#ECR+Pn[8h7Yw7@"><value name="min"><shadow type="math_number" id="rt!nDIsD1O,BPu-H)a#_"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="N-xo,y2n%FTyF@G$w{D%"><field name="NUM">100</field></shadow></value></block></value></block></statement></block><block type="device_pin_event" id="4ngNkzU$8Y|7}{~X`0lU" x="-136" y="385"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="device_print_message" id="HASvt.qd*7Bl{QF~gaa#"><value name="text"><shadow type="text"><field name="TEXT">Hello!</field></shadow><block type="logic_random" id=",C8ek*{5fR~DpVY=J^JR"/></value></block></statement></block></xml>
